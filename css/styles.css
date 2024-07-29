@@ -22,4 +22,8 @@ body {
   color: #4c4c4c;
   background: url(/assets/img/noise_transparent.png), radial-gradient(70% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
   width: 1280px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
 }
