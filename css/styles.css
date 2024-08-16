@@ -189,6 +189,7 @@ body {
 .our-friends {
   background-color: #f6f6f6;
   padding-top: 80px;
+  padding-bottom: 90px;
 }
 .our-friends__header {
   font-family: "Georgia", sans-serif;
@@ -245,7 +246,47 @@ body {
 .our-friends__item {
   text-align: center;
   margin-right: 90px;
+  padding-bottom: 30px;
 }
 .our-friends__item:last-child {
   margin-right: 53px;
+}
+.our-friends__item-header {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 41.5px;
+  margin-right: 41.5px;
+}
+.our-friends__link {
+  display: inline-block;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  padding: 15px 45px;
+}
+.our-friends__link-to-know {
+  display: block;
+  margin: 60px auto 0 auto;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #292929;
+  border-radius: 100px;
+  padding: 15px 45px;
+  background-color: #f1cdb3;
+  width: 262px;
+  height: 52px;
 }
