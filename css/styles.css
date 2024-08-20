@@ -290,3 +290,218 @@ body {
   width: 262px;
   height: 52px;
 }
+
+                  /* Help */
+.help {
+  padding-top: 80px;
+  background-color: #fff;
+}
+
+.help__header {
+  margin: 0 auto;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-align: center;
+}
+.help__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 83px auto  0 120px;
+  /* margin-top: 83px; */
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1026px;
+  justify-content: space-between;
+}
+.help__item {
+  min-height: 115px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 55px;
+  margin-right: 120px;
+}
+.help__list-header {
+  margin: 0 auto;
+  padding-bottom: 5px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+.help__item_pet-food::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/pet-food.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+.help__item_transportation::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/transportation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: 45px;
+  margin-left: 45px;
+}
+.help__item_toys::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/toys.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.help__item_bowls::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/bowls-and-cups.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 30px;
+}
+.help__item_shampoos {
+  margin-right: 0;
+}
+.help__item_shampoos::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/shampoos.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+.help__item_vitamins {
+  margin-left: 84px;
+}
+.help__item_vitamins::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/vitamins.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 15px 30px 15px;
+}
+.help__item_medicines::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/medicines.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 20px 30px 20px;
+}
+.help__item_collars::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/collars-or-leashes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 50px 30px 50px;
+}
+.help__item_areas::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-image: url("../assets/svg/sleeping-area.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 45px 30px 45px;
+}
+
+                           /* Donation */
+.donation {
+  background-color: #f6f6f6;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.donation-content {
+  display: flex;
+  padding: 0 145px;
+}
+.donation-content__wrapper {
+  width: 380px;
+  margin-left: 30px;
+}
+.donation__title {
+  margin: 0;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  width: 300px;
+}
+.donation__description {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.donation__card {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #545454;
+  border-radius: 9px;
+  background-color: #f1cdb3;
+  padding-top: 10px;
+  display: flex;
+  width: 350px;
+
+}
+.donation__card::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 23px;
+  background-image: url("../assets/svg/credit-card.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.donation__info {
+  font-family: "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #b2b2b2;
+}
