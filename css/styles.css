@@ -274,6 +274,7 @@ body {
   border: 2px solid #f1cdb3;
   border-radius: 100px;
   padding: 15px 45px;
+  text-decoration: none;
 }
 .our-friends__link-to-know {
   display: block;
@@ -289,6 +290,7 @@ body {
   background-color: #f1cdb3;
   width: 262px;
   height: 52px;
+  text-decoration: none;
 }
 
                   /* Help */
@@ -504,4 +506,90 @@ body {
   font-size: 12px;
   line-height: 150%;
   color: #b2b2b2;
+}
+
+             /* Footer */
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-list-wrapper {
+  display: flex;
+}
+.contacts__list-contact, .contacts__list-address {
+  list-style-type: none;
+}
+.contacts__list-contact {
+  width: 278px;
+  margin-right: 160px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contacts__list-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 302px;
+  padding: 0;
+}
+.contacts__heading {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  letter-spacing: 0.06em;
+  color: #fff;
+  width: 280px;
+}
+.contacts__item-email, .contacts__item-tel, .contacts__item-address {
+  display: flex;
+  align-items: center;
+}
+/* .contacts__item-email {
+  margin-bottom: 40px;
+} */
+
+.contacts__item-email::before {
+  content: "";
+  background-image: url("../assets/svg/mail.svg");
+  width: 40px;
+  height: 26px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 20px;
+}
+.contacts__item-tel::before {
+  content: "";
+  background-image: url("../assets/svg/phone.svg");
+  display: block;
+  width: 40px;
+  height: 32px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.contacts__item-address::before {
+  content: "";
+  background-image: url("../assets/svg/pin.svg");
+  display: block;
+  width: 22px;
+  height: 32px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+.contacts li {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #f1cdb3;
+}
+.contacts-geo {
+  width: 260px;
+}
+.contacts__link-email, .contacts-tel {
+  color: #f1cdb3;
+  text-decoration: none;
 }
